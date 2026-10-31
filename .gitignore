@@ -1,0 +1,21 @@
+# Protect Gemini API key
+.streamlit/secrets.toml
+
+# Private datasets and videos
+dataset/
+dataset_frames/
+
+# Training outputs
+runs/
+
+# Backup files
+*backup*.py
+app_old.py.py
+app - Copy backup.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Training-only model
+yolov8n-cls.pt
